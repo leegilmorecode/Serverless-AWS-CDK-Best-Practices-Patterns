@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pipeline-config should return the correct config for feature-dev 1`] = `
+{
+  "env": {
+    "account": "11111111111",
+    "region": "eu-west-1",
+  },
+  "stageName": "featureDev",
+  "stateful": {
+    "bucketName": "serverless-pro-feature-dev-bucket",
+  },
+  "stateless": {
+    "lambdaMemorySize": 128,
+  },
+}
+`;
+
+exports[`pipeline-config should return the correct config for prod 1`] = `
+{
+  "env": {
+    "account": "33333333333",
+    "region": "eu-west-1",
+  },
+  "stageName": "prod",
+  "stateful": {
+    "bucketName": "serverless-pro-prod-bucket",
+  },
+  "stateless": {
+    "lambdaMemorySize": 1024,
+  },
+}
+`;
+
+exports[`pipeline-config should return the correct config for staging 1`] = `
+{
+  "env": {
+    "account": "22222222222",
+    "region": "eu-west-1",
+  },
+  "stageName": "staging",
+  "stateful": {
+    "bucketName": "serverless-pro-staging-bucket",
+  },
+  "stateless": {
+    "lambdaMemorySize": 512,
+  },
+}
+`;
