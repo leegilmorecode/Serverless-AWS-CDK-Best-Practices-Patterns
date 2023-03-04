@@ -1,10 +1,18 @@
-# Serverless AWS CDK Best Practices & Patterns with CDK Pipelines
+# Serverless AWS CDK Best Practices & Patterns with CDK Pipelines - Part 1
 
 An example of creating immutable builds using the AWS CDK and progressing them through environments to production using CDK Pipelines.
 
 ![image](./docs/images/header.png)
 
 The article for this repo can be found here: https://leejamesgilmore.medium.com/serverless-aws-cdk-pipeline-best-practices-patterns-part-1-ab80962f109d
+
+Part 2 of the series can be found here:
+
+https://blog.serverlessadvocate.com/serverless-aws-cdk-pipeline-best-practices-patterns-part-2-5446a417d232
+
+With its own Part 2 dedicated GitHub Repo here:
+
+https://github.com/leegilmorecode/Serverless-AWS-CDK-Best-Practices-Patterns-Part2
 
 ---
 
